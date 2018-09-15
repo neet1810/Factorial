@@ -15,6 +15,7 @@ def validateNum():
             None
     return var
 
-num = validateNum()
-print(factorial(num))
+if __name__ == '__main__':
+    num = validateNum()
+    print(factorial(num))
 
